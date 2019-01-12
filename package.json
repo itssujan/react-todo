@@ -1,0 +1,25 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "watch": "parcel watch index.html",
+    "prettier-watch": "onchange '**/*.jsx' -- prettier --write {{changed}}"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-react": "^7.0.0",
+    "onchange": "^5.2.0",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.15.3"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.7.0"
+  }
+}
